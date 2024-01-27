@@ -2188,7 +2188,7 @@
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #01356f;
+  background: white;
   height:2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2279,8 +2279,8 @@
   left: 51%;
   right: 51%;
   top: 0;
-  background: #2098D1;
-  height: 4px;
+  background:white;
+  height:2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -2374,14 +2374,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
-  height: 4px;
+  background: white;
+  height: 2px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition-duration:0.8s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
