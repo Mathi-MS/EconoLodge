@@ -243,6 +243,17 @@ header{
     text-transform: capitalize;
     padding: 10px 0px;
     line-height: 45px;
+    animation:carouselfade linear 5s infinite;
+}
+@keyframes carouselfade {
+    0%{
+        margin-left:0px;
+        opacity:1;
+    }
+    100%{
+        margin-left: 5%;
+        opacity:0.5;
+    }
 }
 #carousel .carousel-caption .carousel-para-two{
     font-size:30px;
@@ -250,6 +261,7 @@ header{
     text-transform: capitalize;
     padding: 10px 0px;
     line-height: 35px;
+    animation:carouselfade linear 5s infinite;
 }
 #carousel .carousel-caption .carousel-head{
     font-size:35px;
@@ -257,6 +269,7 @@ header{
     text-transform: capitalize;
     padding: 10px 0px;
     line-height: 35px;
+    animation:carouselfade linear 5s infinite;
 }
 #carousel .carousel-caption .carousel-btn{
     width:150px;
@@ -593,6 +606,17 @@ header{
     background-color: rgb(193, 26, 32);
     box-shadow: rgba(193, 26, 32, 0.35) 0px 5px 15px;
 }
+#amenities .amenities-content .row .amenities-icon:hover{
+    animation:amenrotate 2s infinite linear;
+}
+@keyframes amenrotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 #amenities .amenities-content .row .amenities-icon svg{
     font-size: 50px;
     color:white;
@@ -878,6 +902,14 @@ header{
     justify-content: center;
     width: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#contact .contact-content .contact-boxes-two .card:hover{
+    box-shadow: rgba(193, 26, 32, 0.35) 0px 5px 15px;
+    border-color: #c11a20;
+}
+#contact .contact-content .contact-boxes-one .card:hover{
+    box-shadow: rgba(193, 26, 32, 0.35) 0px 5px 15px;
+    border-color: #c11a20;
 }
 #contact .contact-content .contact-head-two{
     font-family:PlayfairDisplay-bold;
@@ -1655,10 +1687,10 @@ header{
     }
     #room .room-head-two {
         font-family: PlayfairDisplay-bold;
-        font-size: 30px;
+        font-size: 26px;
         color: rgba(0, 0, 0, 0.781);
         text-align: left;
-        line-height: 30px;
+        line-height:26px;
     }
     #amenities .amenities-content .amenities-head {
         font-family: PlayfairDisplay-bold;
@@ -1800,7 +1832,7 @@ header{
     #room .row .room-right {
         width: 100%;
         margin: 0px auto;
-        padding: 30px;
+        padding: 24px;
     }
     #room .row .room-img {
         width:100%;
